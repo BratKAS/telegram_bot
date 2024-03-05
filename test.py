@@ -3,9 +3,11 @@ import subprocess
 
 dp = os.path.expanduser("~/Desktop")
 
-tn = 'hi.txt'
+contents = os.listdir(dp)
+
+tn = 'вопрос.txt'
 tp = os.path.join(dp, tn)
 with open(tp, 'w') as file:
-    file.write('Hi!')
+    file.write('Кто я?')
 
 subprocess.Popen(['open', tp])
