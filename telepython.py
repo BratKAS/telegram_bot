@@ -1,5 +1,5 @@
 from aiogram import Bot, Dispatcher, F
-from aiogram.types import Message
+from aiogram.types import Message, FSInputFile
 import os
 
 
@@ -68,6 +68,18 @@ async def exec_code(message: Message):
         await message.answer(answer)
     else:
         await message.answer('В доступе отказано... 🔒')
+
+
+@dp.message(lambda x: x.text.startswith('send_file '))
+async def send_file(message: Message):
+    try:
+        file_path = message.text[10::]
+        input_file = FSInputFile(file_path)
+        await bot.send_document(message.chat.id, input_file)
+
+
+    except Exception as e:
+        await message.answer(f'Произошла ошибка: {e}')
 
 
 @dp.message(lambda x: x.text)
