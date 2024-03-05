@@ -4,30 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5e0496e-32ca-433c-af47-4a2053f2d21f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/telegram_bot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FastCode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akinator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api_task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot_1st_step.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comb.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config_class_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gif_file.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/history.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/typedict.py" afterDir="false" />
+    <list default="true" id="d5e0496e-32ca-433c-af47-4a2053f2d21f" name="Changes" comment="Akinator api">
+      <change afterPath="$PROJECT_DIR$/allowed_id.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guess_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/telepython.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/token.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/akinator.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,9 +31,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2d2KMUMnVpaaW8g07VW3xnWET9z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -48,10 +44,14 @@
   "keyToString": {
     "Python.FastCode.executor": "Run",
     "Python.akinator.executor": "Run",
+    "Python.guess_number.executor": "Run",
+    "Python.telepython.executor": "Run",
+    "Python.test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/bratk/Documents/PyCharm/telegram_bot"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/bratk/Documents/PyCharm/telegram_bot",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -75,6 +75,19 @@
       <option name="presentableId" value="Default" />
       <updated>1709200684619</updated>
     </task>
+    <task id="LOCAL-00001" summary="Akinator api">
+      <option name="closed" value="true" />
+      <created>1709201415984</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709201415984</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Akinator api" />
+    <option name="LAST_COMMIT_MESSAGE" value="Akinator api" />
   </component>
 </project>
