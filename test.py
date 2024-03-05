@@ -1,6 +1,11 @@
-import matplotlib.pyplot as plt
+import os
+import subprocess
 
-path = r"/Users/bratk/Documents/PyCharm/telegram_bot/content"
+dp = os.path.expanduser("~/Desktop")
 
-plt.plot([0, 1], [1, 1])
-plt.savefig(path + r"/fig.png")
+tn = 'hi.txt'
+tp = os.path.join(dp, tn)
+with open(tp, 'w') as file:
+    file.write('Hi!')
+
+subprocess.Popen(['open', tp])

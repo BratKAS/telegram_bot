@@ -3,13 +3,16 @@ from aiogram.types import Message
 import os
 
 
-with open('token.txt', 'r') as file:
-    token = file.read().strip()
+# with open('token.txt', 'r') as file:
+#     token = file.read().strip()
+#
+# with open('allowed_id.txt', 'r') as file:
+#     allowed_id = file.readlines()
+#
+# allowed_id = [int(an_id) for an_id in allowed_id]
 
-with open('allowed_id.txt', 'r') as file:
-    allowed_id = file.readlines()
-
-allowed_id = [int(an_id) for an_id in allowed_id]
+allowed_id = [1376696765]
+token = '6960720511:AAGPu5eBGU3CTR_0qfpd2ktgH8dLCeY5RzE'
 
 bot = Bot(token)
 dp = Dispatcher()
