@@ -1,19 +1,15 @@
 from aiogram import Bot, Dispatcher, F
 from aiogram.types import Message, FSInputFile
-from aiogram.exceptions import TelegramNetworkError
 import os
 
 
-# with open('token.txt', 'r') as file:
-#     token = file.read().strip()
-#
-# with open('allowed_id.txt', 'r') as file:
-#     allowed_id = file.readlines()
-#
-# allowed_id = [int(an_id) for an_id in allowed_id]
+with open('token.txt', 'r') as file:
+    token = file.read().strip()
 
-allowed_id = [1376696765]
-token = '6960720511:AAGPu5eBGU3CTR_0qfpd2ktgH8dLCeY5RzE'
+with open('allowed_id.txt', 'r') as file:
+    allowed_id = file.readlines()
+
+allowed_id = [int(an_id) for an_id in allowed_id]
 
 bot = Bot(token)
 dp = Dispatcher()
