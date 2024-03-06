@@ -1,6 +1,13 @@
 from aiogram import Bot, Dispatcher, F
 from aiogram.types import Message, FSInputFile
+from aiogram.exceptions import TelegramNetworkError
 import os
+import time
+import numpy as np
+import matplotlib.pyplot as plt
+import sys
+import cv2
+import sympy
 
 
 # with open('token.txt', 'r') as file:
