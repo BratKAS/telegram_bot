@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5e0496e-32ca-433c-af47-4a2053f2d21f" name="Changes" comment="git-ignore">
-      <change beforePath="$PROJECT_DIR$/allowed_id.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/token.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/calc.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intel_fun.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/telepython" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/telepython.app/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/telepython.app/Contents/MacOS/telepython" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/telepython.app/Contents/Resources/icon-windowed.icns" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/telepython.py" beforeDir="false" afterPath="$PROJECT_DIR$/Intel.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,22 +44,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.FastCode.executor&quot;: &quot;Run&quot;,
-    &quot;Python.akinator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.guess_number.executor&quot;: &quot;Run&quot;,
-    &quot;Python.telepython.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/bratk/Documents/PyCharm/telegram_bot&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.FastCode.executor": "Run",
+    "Python.akinator.executor": "Run",
+    "Python.guess_number.executor": "Run",
+    "Python.telepython.executor": "Run",
+    "Python.test.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/KondratevAS/pyCharm_work/stepik/telegram_bots",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\KondratevAS\pyCharm_work\stepik\telegram_bots" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -154,6 +163,7 @@
     <MESSAGE value="import ..." />
     <MESSAGE value="hidden-import" />
     <MESSAGE value="git-ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="git-ignore" />
+    <MESSAGE value="history" />
+    <option name="LAST_COMMIT_MESSAGE" value="history" />
   </component>
 </project>
